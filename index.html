@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="coffee.css">
+  </head>
+  <body>
+    <!-- Start your project here-->
+    <header>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-body-dark">
+  <!-- Container wrapper -->
+  <div class="container">
+    <!-- Toggle button -->
+    <button
+      data-mdb-collapse-init
+      class="navbar-toggler"
+      type="button"
+      data-mdb-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Navbar brand -->
+        <img src="img/brand.jpg" alt="">
+      <!-- Left links -->
+      <div class="list">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="#Home">home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#About">about</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Menu">menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Product">product</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Review">review</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Contact">contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="#blogs">blogs</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+
+    <!-- Right elements -->
+    <div class="end d-flex align-items-center">
+      <div class="dropdown">
+        <a
+          data-mdb-dropdown-init
+          class="link-secondary me-3 dropdown-toggle hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          aria-expanded="false"
+        >
+      <!-- Icon -->
+        <i class="fas fa-shopping-cart"></i>
+      </a>
+      <ul
+      class="cart dropdown-menu dropdown-menu-end"
+      aria-labelledby="navbarDropdownMenuLink"
+      >
+      <li>
+        <img src="img/menu 1.jpg" alt="">
+        <div class="des">
+          <h4>Cart iteam 1</h4>
+          <p>15.99 <span>20.99</span></p>
+        </div>
+        <i class="fa-solid fa-xmark"></i>
+      </li>
+      <li>
+        <img src="img/menu 3.jpg" alt="">
+        <div class="des">
+          <h4>Cart iteam 2</h4>
+          <p>15.99 <span>20.99</span></p>
+        </div>
+        <i class="fa-solid fa-xmark"></i>
+      </li>
+      <li>
+        <img src="img/menu 5.jpg" alt="">
+        <div class="des">
+          <h4>Cart iteam 3</h4>
+          <p>15.99 <span>20.99</span></p>
+        </div>
+        <i class="fa-solid fa-xmark"></i>
+      </li>
+    </ul>
+      </div>
+      <!-- Notifications -->
+      <div class="dropdown">
+        <a
+          data-mdb-dropdown-init
+          class="link-secondary me-3 dropdown-toggle hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          aria-expanded="false"
+        >
+          <i class="fas fa-bell"></i>
+          <span class="badge rounded-pill badge-notification bg-danger">1</span>
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuLink"
+        >
+          <li>
+            <a class="dropdown-item" href="#">Some news</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Another news</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Avatar -->
+      <div class="dropdown">
+        <a
+          data-mdb-dropdown-init
+          class="dropdown-toggle d-flex align-items-center hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuAvatar"
+          role="button"
+          aria-expanded="false"
+        >
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+            class="rounded-circle"
+            height="25"
+            alt="Black and White Portrait of a Man"
+            loading="lazy"
+          />
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuAvatar"
+        >
+          <li>
+            <a class="dropdown-item" href="#">My profile</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Settings</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Right elements -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+    </header>
+    <!-- home start -->
+    <main id="Home">
+      <div class="whatsapp">
+        <i class="fa-brands fa-whatsapp"></i>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel" data-mdb-carousel-init>
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-mdb-target="#carouselExampleIndicators"
+            data-mdb-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-mdb-target="#carouselExampleIndicators"
+            data-mdb-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-mdb-target="#carouselExampleIndicators"
+            data-mdb-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="photo">
+              <img src="img/home-1.jpg" class="d-block w-100" alt="Wild Landscape"/>
+              <div class="photo-content">
+                <h1>FRESH COFFEE IN THE MORNING</h1>
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, quisquam sunt ullam placeat .</P>
+                <a href="">
+                    <div class="btn">get it now</div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="photo">
+              <img src="img/home-2.jpg" class="d-block w-100" alt="Wild Landscape"/>
+              <div class="photo-content">
+                <h1>FRESH COFFEE IN THE MORNING</h1>
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, quisquam sunt ullam placeat .</P>
+                <a href="">
+                    <div class="btn">get it now</div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="photo">
+              <img src="img/home-3.png" class="d-block w-100" alt="Wild Landscape"/>
+              <div class="photo-content">
+                <h1>FRESH COFFEE IN THE MORNING</h1>
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, quisquam sunt ullam placeat .</P>
+                <a href="">
+                    <div class="btn">get it now</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+      <!-- home end -->
+      <!-- About Start -->
+      <section id="About">
+        <div class="container">
+          <h1><span>ABOUT</span> US</h1>
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img src="img/About us.jpg" alt="">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <div class="description">
+                <h2>what make our coffee special</h2>
+                <p>Turkish coffee is very finely ground coffee brewed by boiling. Any coffee bean may be used;
+                    arabica varieties are considered best, but robusta or a blend is also used.
+                    The coffee grounds are left in the coffee when served. The coffee may be ground at home in a manual grinder made for the very fine grind,
+                    ground to order by coffee merchants in most parts of the world, or bought ready-ground from many shops.
+                </p>
+                <a href="">
+                    <div class="btn">learn more</div>
+                </a>
+              </div>   
+            </div>           
+          </div>  
+        </div>  
+      </section>
+      <!-- About End -->
+      <!-- menu Start -->
+      <section id="Menu">
+          <div class="container">
+              <h1>our <span>Menu</span></h1>
+              <div class="box">
+                  <span id="photo" id="img1" style="--i:1"><img src="img/menu 1.jpg">
+                      <div class="con">
+                          <h4>tasty and healty</h4>
+                          <p>$15.99 <span>20.99</span></p>
+                              <div id="btn" >add to cart</div>
+                      </div>
+                  </span>
+                  <span id="photo" id="img2" style="--i:2"><img src="img/menu 2.jpg">
+                      <div class="con">
+                          <h4>tasty and healty</h4>
+                          <p>$15.99 <span>20.99</span></p>
+                          <div id="btn" >add to cart</div>
+                      </div>
+                  </span>
+                  <span id="photo" id="img3" style="--i:3"><img src="img/menu 3.jpg">
+                      <div class="con">
+                          <h4>tasty and healty</h4>
+                          <p>$15.99 <span>20.99</span></p>
+                          <div id="btn" >add to cart</div>
+                      </div>
+                  </span>
+                  <span id="photo" id="img4" style="--i:4"><img src="img/menu 4.webp">
+                      <div class="con">
+                          <h4>tasty and healty</h4>
+                          <p>$15.99 <span>20.99</span></p>
+                          <div id="btn" >add to cart</div>
+                      </div>
+                  </span>
+                  <span id="photo" style="--i:5"><img src="img/menu 5.jpg">
+                      <div class="con">
+                          <h4>tasty and healty</h4>
+                          <p>$15.99 <span>20.99</span></p>
+                          <div id="btn" >add to cart</div>
+                      </div></span>
+                  <span id="photo" style="--i:6"><img src="img/menu 6.png">
+                      <div class="con">
+                          <h4>tasty and healty</h4>
+                          <p>$15.99 <span>20.99</span></p>
+                          <div id="btn" >add to cart</div>
+                      </div></span>
+                  <span id="photo" style="--i:7"><img src="img/menu 7.webp">
+                      <div class="con">
+                          <h4>tasty and healty</h4>
+                          <p>$15.99 <span>20.99</span></p>
+                          <div id="btn" >add to cart</div>
+                      </div></span>
+                  <span id="photo" style="--i:8"><img src="img/menu 8.webp">
+                      <div class="con">
+                          <h4>tasty and healty</h4>
+                          <p>$15.99 <span>20.99</span></p>
+                          <div id="btn" >add to cart</div>
+                      </div></span>
+                  <span id="photo" style="--i:9"><img src="img/menu 9.jpg">
+                      <div class="con">
+                          <h4>tasty and healty</h4>
+                          <p>$15.99 <span>20.99</span></p>
+                          <div id="btn" >add to cart</div>
+                      </div>
+                  </span>
+                  <span id="photo" style="--i:10"><img src="img/menu 10.jpg">
+                      <div class="con">
+                          <h4>tasty and healty</h4>
+                          <p>$15.99 <span>20.99</span></p>
+                          <div id="btn" >add to cart</div>
+                      </div>
+                  </span>
+              </div>
+          </div>
+      </section>
+      <!-- menu End -->
+      <!-- Product start -->
+      <section id="Product">
+          <h1>Latest <span>Product</span></h1>
+          <img class="p-img" src="img/product background.jpeg" alt="">
+          <div class="container">
+            <div class="departments">
+              <div class="row">
+                  <div class="con col-lg-4 col-md-4 col-sm-12">
+                    <div class="des-con">
+                      <a href="">
+                        <h4>Coffee Beans</h4>
+                      </a>
+                      <img src="img/f-shape-1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="con col-lg-4 col-md-4 col-sm-12">
+                    <div class="des-con-2">
+                      <a href="">
+                        <h4>TURKISH COFFEE</h4>
+                      </a>
+                      <img src="img/f-shape-1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="con col-lg-4 col-md-4 col-sm-12">
+                    <div class="des-con-3">
+                      <a href="">
+                        <h4>Coffee Vending Machine</h4>
+                      </a>
+                      <img src="img/f-shape-1.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </section>
+      <!-- Product End -->
+      <!-- Review start -->
+      <section id="Review">
+          <div class="container">
+              <div class="customer-rev">
+                  <h1>customer's <span>Review</span></h1>
+                  <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="content">
+                          <img class="rev-img" src="img/review.png" alt="">
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, ducimus corporis fuga voluptatum, fugiat harum sequi,
+                              tenetur consequuntur suscipit laudantium cupiditate totam Cumque .
+                          </p>
+                          <img src="img/T1.png" alt="">
+                          <h3>john deo</h3>
+                          <div class="stars">
+                              <div class="fa-solid fa-star"></div>
+                              <div class="fa-solid fa-star"></div>
+                              <div class="fa-solid fa-star"></div>
+                              <div class="fa-solid fa-star"></div>
+                              <div class="fa-solid fa-star-half-stroke"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="content">
+                          <img class="rev-img" src="img/review.png" alt="">
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, ducimus corporis fuga voluptatum, fugiat harum sequi,
+                              tenetur consequuntur suscipit laudantium cupiditate totam Cumque .
+                          </p>
+                          <img src="img/T2.png" alt="">
+                          <h3>john deo</h3>
+                          <div class="stars">
+                              <div class="fa-solid fa-star"></div>
+                              <div class="fa-solid fa-star"></div>
+                              <div class="fa-solid fa-star"></div>
+                              <div class="fa-solid fa-star"></div>
+                              <div class="fa-solid fa-star-half-stroke"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="content">
+                          <img class="rev-img" src="img/review.png" alt="">
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, ducimus corporis fuga voluptatum, fugiat harum sequi,
+                              tenetur consequuntur suscipit laudantium cupiditate totam Cumque .
+                          </p>
+                          <img src="img/T3.png" alt="">
+                          <h3>john deo</h3>
+                          <div class="stars">
+                              <div class="fa-solid fa-star"></div>
+                              <div class="fa-solid fa-star"></div>
+                              <div class="fa-solid fa-star"></div>
+                              <div class="fa-solid fa-star"></div>
+                              <div class="fa-solid fa-star-half-stroke"></div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="product-rev">
+                  <h1>products <span>Review</span></h1>
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="con">
+                        <div class="icons">
+                          <div class="fa-solid fa-cart-shopping"></div>
+                          <div class="fa-solid fa-heart"></div>
+                          <div class="fa-solid fa-eye"></div>
+                        </div>
+                        <img src="img/product 1.webp" alt="">
+                          <h3>Fresh Coffee</h3>
+                        <div class="stars">
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star-half-stroke"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="con">
+                        <div class="icons">
+                          <div class="fa-solid fa-cart-shopping"></div>
+                          <div class="fa-solid fa-heart"></div>
+                          <div class="fa-solid fa-eye"></div>
+                        </div>
+                          <img src="img/product 2.webp" alt="">
+                          <h3>Fresh Coffee</h3>
+                        <div class="stars">
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star-half-stroke"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="con">
+                        <div class="icons">
+                          <div class="fa-solid fa-cart-shopping"></div>
+                          <div class="fa-solid fa-heart"></div>
+                          <div class="fa-solid fa-eye"></div>
+                        </div>
+                        <img src="img/product 3.webp" alt="">
+                          <h3>Fresh Coffee</h3>
+                        <div class="stars">
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star"></div>
+                            <div class="fa-solid fa-star-half-stroke"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- Review End -->
+      <!-- Contact Start  -->
+      <section id="Contact">
+        <div class="container">
+          <h1><span>Contact</span> Us</h1>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13813.173220986704!2d31.342725649999995!3d30.057126049999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583e6817b4f86b%3A0x9cce54b89170bcaf!2sGenena%20Mall!5e0!3m2!1sen!2seg!4v1722193206030!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <form>
+                <h1>GET IN TOUCH</h1>
+                <div class="in">
+                  <input type="text" placeholder="Enter your Username">
+                  <div class="fa-solid fa-user"></div>
+                </div>
+                <div class="in">
+                  <input type="email" placeholder="Enter your email">
+                  <div class="fa-solid fa-envelope"></div>
+                </div>
+                <div class="in">
+                  <input type="text" placeholder="Enter your number">
+                  <div class="fa-solid fa-phone"></div>
+                </div>
+                <button class="btn">Contact Now</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact End  -->
+      <!-- blogs Start  -->
+      <section id="blogs">
+        <div class="container">
+          <h1>OUR <span>BLOGS</span></h1>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="con">
+                <img src="img/our blogs 1.png" alt="">
+                <div class="des">
+                  <h4>Tasty And Refreashing Coffee</h4>
+                  <p class="date">By Admin / 1st May, 2021</p>
+                  <p class="lor">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nemo. </p>
+                  <button>Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="con">
+                <img src="img/our blogs 2.png" alt="">
+                <div class="des">
+                  <h4>Tasty And Refreashing Coffee</h4>
+                  <p class="date">By Admin / 1st May, 2021</p>
+                  <p class="lor">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nemo. </p>
+                  <button>Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="con">
+                <img src="img/our blogs 3.png" alt="">
+                <div class="des">
+                  <h4>Tasty And Refreashing Coffee</h4>
+                  <p class="date">By Admin / 1st May, 2021</p>
+                  <p class="lor">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nemo. </p>
+                  <button>Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- blogs End  -->
+      <section id="footer">
+        <div class="container">
+          <footer class="text-center">
+            <!-- Grid container -->
+            <div class="Social p-4 pb-0">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Facebook -->
+                <a
+                data-mdb-ripple-init
+                  class="btn text-white btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+          
+                <!-- Twitter -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn text-white btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+          
+                <!-- Google -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn text-white btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-google"></i
+                ></a>
+          
+                <!-- Instagram -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn text-white btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+          
+                <!-- Linkedin -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn text-white btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <!-- Github -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn text-white btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+            <div class="list">
+              <ul class="d-flex">
+                <div class="row">
+                  <li class="nav-item col-lg-1 col-sm-12">
+                    <a href="#Home">home</a>
+                  </li>
+                  <li class="nav-item col-lg-1 col-sm-12">
+                    <a href="#About">about</a>
+                  </li>
+                  <li class="nav-item col-lg-1 col-sm-12">
+                    <a href="#Menu">menu</a>
+                  </li>
+                  <li class="nav-item col-lg-1 col-sm-12">
+                    <a href="#Product">product</a>
+                  </li>
+                  <li class="nav-item col-lg-1 col-sm-12">
+                    <a href="#Review">review</a>
+                  </li>
+                  <li class="nav-item col-lg-1 col-sm-12">
+                    <a href="#Contact">contact</a>
+                  </li>
+                  <li class="nav-item col-lg-1 col-sm-12">
+                    <a href="#blogs">blogs</a>
+                  </li>
+                  <div class="nav-item col-lg-1 col-sm-12">
+                  </div>
+                  <div class="nav-item col-lg-1 col-sm-12">
+                  </div>
+                  <div class="nav-item col-lg-1 col-sm-12">
+                  </div>
+                  <div class="nav-item col-lg-1 col-sm-12">
+                  </div>
+                  <div class="nav-item col-lg-1 col-sm-12">
+                  </div>
+                </div>
+              </ul>
+            </div>
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+              © 2020 Copyright:
+              <a class="C-r" href="">Mr-Islam Salah</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+          
+        </div>
+      </section>
+    <!-- End your project here-->
+    <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <script src="coffee.js"></script>
+  </body>
+</html>
